@@ -27,3 +27,8 @@ Purpose
 
 I created this project to practice real-world web development techniques — from building layouts with HTML and CSS, to using icons and deploying a website with GitHub Pages.
 It forms part of my personal web development portfolio.
+
+Live Demo
+https://tibulani.github.io/TJC-funeral-website/
+
+
