@@ -1,4 +1,5 @@
 
+
 /*reset*/
 *{
     margin: 0;
@@ -232,7 +233,7 @@ footer{/* */
     flex-wrap: wrap;
     justify-content: start;
     align-items: start;
-    height: auto;
+    height: 10%;
     color:white;
     gap: 20px;
     padding: 50px 0px 60px 85px;
@@ -286,16 +287,14 @@ footer li {
   }
 
   .navbar {
-    flex-direction: column;
-    height: auto;
+    height: 10vh;
     padding: 0.5rem;
   }
 
   .navbar-menu {
-    flex-direction: column;
     align-items: center;
     gap: 0.5rem;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
 
   .offers,
@@ -312,10 +311,14 @@ footer li {
   }
 
   footer {
-    flex-direction: column;
-    align-items: start;
-    height: 10%;
+    font-size: 1rem;
+    width: 450px;
+    padding-left: 25px;
+  
+
   }
+  .slgan{font-size: 0.7rem;
+        width: 50%;
+  }
+  
 }
-
-
