@@ -318,12 +318,14 @@ footer li {
 
   }
   .slgan{font-size: 0.7rem;
-        width: 50%;
+        width: 80%;
   }
 
   .heading-offer1 ,.heading-offer2{
     font-size: 1rem;
 
   }
-  
+  body{
+    width:100%;
+  }
 }
