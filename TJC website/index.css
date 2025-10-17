@@ -295,6 +295,7 @@ footer li {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
+    font-size: 0.6rem;
   }
 
   .offers,
@@ -316,4 +317,5 @@ footer li {
     height: 10%;
   }
 }
+
 
