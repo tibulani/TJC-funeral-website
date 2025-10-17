@@ -274,8 +274,8 @@ footer li {
   .whyUs-card-container,
   .service-card-container,
   .plan-card-container .card {
-    flex-direction: column;
     align-items: center;
+    width:100%;
   }
 }
 
@@ -329,3 +329,4 @@ footer li {
     width:100%;
   }
 }
+
