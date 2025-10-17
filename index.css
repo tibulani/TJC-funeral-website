@@ -1,0 +1,319 @@
+
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    line-height: 1.6;
+    }
+
+.navbar{
+    position: fixed;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    z-index: 1000;  
+    background: linear-gradient(to left,green,yellow)
+}
+
+.navbar-menu{
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   width: 80%;
+   gap: 15px;
+   list-style: none;
+   font-size: 20px;
+}
+    
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover{
+  color: yellow;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+main{ /* */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.slogan img{/*first imgane with ppz carrying casket */
+    margin-top: 65px;
+    width: 100%;
+    height: 50vh;
+    max-width: 900px;
+    object-fit: cover;
+    image-rendering: auto;
+    padding: 2.5px 0px;
+}
+.slogan{/* first slogen text*/
+    color: rgb(19, 164, 19);
+    position: relative;
+}
+
+.slogan h1, p{
+  color: green;
+  text-align: center;
+  font-weight: bolder;
+  
+}
+
+.offers{/*products that are being offfered */
+    margin: 35px;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    background:linear-gradient(to left,white,green,white);
+    color: white;
+}
+.heading-offer1{
+  font-style: italic;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.us{/* why us text*/
+    text-align: center;
+    margin: 35px;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    font-size: 35px;
+}
+.whyUs-card-container{/*why us elements to display horizontal 3 of them */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 15px;}
+
+   .whyUs-card-container h2 {/*Why us headings, affoardable... */
+    background: linear-gradient(to left,yellow,green);
+    color:white;
+    font-size: 35px;
+    text-align: center;
+   }
+    .whyUs-card-container p {/*why us paragraphes */
+    color: green;
+    font-size: 20px;
+    text-align: start;
+   }
+
+   .us{
+    background:linear-gradient(to left,white,green,white);
+    color: white;
+   }
+
+.service-card-container {/*service card to display pic horixontal */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+ 
+}
+  .service-card-container img{/*sizing the images*/
+    width: 450px;
+    height: 350px;
+    object-fit: cover;
+    image-rendering: auto;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+   .service-card-container h2{/* service card heading*/
+        text-align: center;
+        background: linear-gradient(to left,yellow,green);
+        color: white;
+        border-radius: 5px;
+   }
+
+.plan-card-container .card{/*displying plans element horizontal */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 75px;
+}
+.plan-card-container h3{/*Plans and benefits text */
+    color: rgb(245, 245, 236);
+    background:linear-gradient(to left,white,green,white);
+    text-align: center;
+}
+
+.plan-card-container h2{/*"Our plan" element*/
+    color: rgb(245, 245, 236);
+    background:linear-gradient(to left,white,green,white);
+    text-align: center;
+    margin-top: 40px;
+}
+.plan-card-container h4{/*Price */
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    color: rgb(129, 129, 13);
+    font-style: italic;
+}
+
+.benefits li{/*Benefits list iteam */
+    color:rgb(3, 92, 9);
+    list-style-type: none;
+    margin-left: 50px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+.QuoteForm{/*form element */
+    background-color: green;
+    width: 400px;
+    padding:20px 100px;
+    margin: 0 auto;
+    color: yellow;
+    border-radius: 4px;
+}
+.QuoteForm:hover{
+    background: linear-gradient(to left,yellow,green);
+    color: white;
+    transition: 0.50s;
+}
+.quote h2{/* quote heading text */
+    text-align: center;
+    color: white;
+    background: linear-gradient(to left,yellow,green);
+   
+  }
+input{
+    border-color: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: 4px;
+}
+label{
+    font-weight: bold;
+}
+
+
+button{/* bottom icon*/
+    color: rgb(235, 235, 221);
+    background-color: rgb(105, 105, 244);
+    width: 100px;
+    margin-left:  40px;
+    height: 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+  color: rgb(30, 0, 255);
+  background-color: white;
+}
+
+footer{/* */
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    height: auto;
+    color:white;
+    gap: 20px;
+    padding: 50px 0px 60px 85px;
+    margin-top: 10px;
+}
+.social-icons a {
+  color: white;
+  font-size: 30px;
+  gap: 5px;
+}
+
+.social-icons a:hover {
+  color: #001eff;       
+  transform: scale(1.2);}
+
+footer li {
+  list-style: none;
+}
+ .slgan{
+      font-weight: bold;
+      font-size: 19px;
+
+
+} 
+
+/*responsiveness */
+
+/* Tablets */
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+
+  .navbar-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .whyUs-card-container,
+  .service-card-container,
+  .plan-card-container .card {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 0.5rem;
+  }
+
+  .navbar-menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .offers,
+  .us {
+    font-size: 1.8rem;
+  }
+
+  .whyUs-card-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .whyUs-card-container p {
+    font-size: 1rem;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: start;
+    height: 10%;
+  }
+}
+
